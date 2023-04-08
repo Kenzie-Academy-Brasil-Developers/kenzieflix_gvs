@@ -24,8 +24,9 @@ body {
 li img {
     width: 160px;
     height: 160px;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 5px;
+    
 }
 
 ul li img:hover {
