@@ -1,0 +1,92 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background-color: #111214;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.lista_perfil {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+li img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+ul li img:hover {
+    border: 2px solid #ffffff;
+}
+
+.logo {
+    height: 68px;
+    width: 229px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    bottom: 25vh;
+    margin-top: 20%;  
+}
+
+h1 {
+    font-size: 26px;
+    bottom: 10vh;
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img_button {
+    padding: 37px;
+    background-color: dimgray;
+}
+
+.nome {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 79px;
+    font-family: 'Roboto', sans-serif;
+    width: 220px;
+    height: 55px;
+    
+    background-color: #111214 ;
+    
+}
+button {
+    background-color: #111214;
+    width: 220px;
+    height: 55px;
+    color: rgb(205, 203, 203);
+    border: 1px solid dimgray;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
